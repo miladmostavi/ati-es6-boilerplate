@@ -1,3 +1,8 @@
-import { boz } from './lite'
+import * as lite from './lite'
 
-boz();
+
+export function sag() {
+  console.log('sdfsfd')
+}
+
+export { lite };
